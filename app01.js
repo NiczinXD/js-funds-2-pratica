@@ -37,7 +37,7 @@ console.log(`Array esparso: ${arrExemplo}`)
 console.log(arrExemplo);
 pare();
 
-console.log("2-Crie um programa em Node.js que inicie com um array cinco elementos e atribua um novo valor para a primeira posição (índice 0) desse array. Em seguida, exiba o array antes e depois da alteração.\n".yellow);
+console.log("2-Crie um programa em Node.js que inicie com um array cinco elementos e atribua um novo valor para a primeira posição (índice 0) desse array. Em seguida, exiba o array antes e depois da alteração.\n".cyan);
 const listaElemento = [7, 4, 5, 6, 8];
 console.log(listaElemento);
 
@@ -45,7 +45,7 @@ listaElemento[0] = 32;
 console.log(listaElemento);
 pare();
 
-console.log("3-Crie um array vazio chamado meuArray e adicione 3 números inteiros de sua escolha utilizando o método push(). Imprima no console os itens presentes no array para verificar se os números foram adicionados. Em seguida, substitua o primeiro elemento do array (índice 0) pelo dobro do seu valor atual. Imprima no console o array atualizado para verificar a mudança.\n".red);
+console.log("3-Crie um array vazio chamado meuArray e adicione 3 números inteiros de sua escolha utilizando o método push(). Imprima no console os itens presentes no array para verificar se os números foram adicionados. Em seguida, substitua o primeiro elemento do array (índice 0) pelo dobro do seu valor atual. Imprima no console o array atualizado para verificar a mudança.\n".cyan);
 const meuArray = [];
 meuArray.push(7, 8, 9)
 console.log(meuArray);
@@ -54,13 +54,13 @@ meuArray[0] = meuArray[0] * 2;
 console.log(meuArray);
 pare();
 
-console.log("4-Desenvolva um programa em Node.js que crie um array vazio e atribua valores a ele utilizando o método push(). Adicione três números inteiros ao array e, em seguida, exiba o array resultante.".cyan);
+console.log("4-Desenvolva um programa em Node.js que crie um array vazio e atribua valores a ele utilizando o método push(). Adicione três números inteiros ao array e, em seguida, exiba o array resultante.\n".cyan);
 const arrayVazio = []
 arrayVazio.push(6, 5, 4);
 console.log(arrayVazio);
 pare();
 
-console.log("5-Desenvolva um programa em Node.js que simule uma clínica veterinária. Crie um array vazio chamado clinica que representará a fila de animais na clínica. Em um primeiro momento, simule a chegada de três animais diferentes e exiba a lista de animais no console. Após a exibição, remova os animais da lista um por vez e, por fim, exiba no console o estado final da lista.");
+console.log("5-Desenvolva um programa em Node.js que simule uma clínica veterinária. Crie um array vazio chamado clinica que representará a fila de animais na clínica. Em um primeiro momento, simule a chegada de três animais diferentes e exiba a lista de animais no console. Após a exibição, remova os animais da lista um por vez e, por fim, exiba no console o estado final da lista.\n".cyan);
 const clinicaVeterinaria = []
 console.log(`A clinica veterinaria esta vazia`);
 
